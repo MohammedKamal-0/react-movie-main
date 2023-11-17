@@ -1,0 +1,86 @@
+nav{
+    margin: 1em 2em;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li h1{
+    margin-left: 2em;
+  border-bottom: 3px solid rgb(4, 91, 1);
+  border-left: 3px solid rgb(4, 91, 1);
+  border-radius: 4px;
+}
+ul li{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 50px;
+    
+}
+ h1{
+  color: rgb(199, 198, 198)
+}
+li .input-container input {
+
+    border: none;
+    color: white;
+    background-color: rgb(26, 28, 26);
+    border-left: 3px solid rgb(4, 91, 1);
+    border-bottom: 3px solid rgb(4, 91, 1);
+    padding: 1em 4em 1em 1em;
+    border-radius: 4px;
+   
+  }
+  
+  .input-container{
+    margin-right: 8em;
+    /* box-shadow: 0 0 0.5em rgb(161, 12, 12); */
+    border-radius: 8px;
+
+  }
+
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul li h1 {
+    font-size: 1.5rem; /* default font size */
+  }
+  
+  nav ul li .input-container input {
+    width: 100px; /* default width */
+  }
+  
+  @media (min-width: 576px) {
+    nav ul li h1 {
+      font-size: 2rem;
+    }
+  
+    nav ul li .input-container input {
+      width: 200px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    nav ul li h1 {
+      font-size: 2.5rem;
+    }
+  
+    nav ul li .input-container input {
+      width: 300px;
+    }
+  }
+  button{
+    margin-left: 10px;
+    border-right: 3px solid rgb(4, 91, 1);
+    border-top: 3px solid rgb(4, 91, 1);
+    border-radius: 8px;
+    background-color: rgb(37, 35, 35);
+    padding: 12px 25px ;
+
+  }
